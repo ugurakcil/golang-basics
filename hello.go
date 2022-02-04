@@ -9,7 +9,6 @@ func saveLog() {
 	fmt.Println("Log saved")
 }
 
-//https://support.udemy.com/hc/tr/requests/6942224?page=1
 func main() {
 	defer saveLog()
 	m := 1
